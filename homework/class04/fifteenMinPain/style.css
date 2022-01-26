@@ -1,0 +1,17 @@
+header, footer {
+    height: 10vh;
+    border: 2px solid red;
+    clear: both;
+}
+
+section {
+    height: 40vh;
+    width: 33.3333%;
+    outline: 2px solid red;
+    float: left;
+    font-style: 1em;
+}
+
+.bottom {
+    width: 50%;
+}
