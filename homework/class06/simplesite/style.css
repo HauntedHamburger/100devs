@@ -1,0 +1,126 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(135, 227, 250);
+    border: 5px solid rgb(21, 218, 21);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul li a {
+    color:rgb(21, 218, 152);
+}
+
+#break {
+    color: rgb(136, 10, 35);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+section h2 {
+    font-family: Arial, Helvetica, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+}
+
+section p {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.75em;
+    }
+
+section img {
+    float: right;
+    width: 250px;
+    margin: 0px 25px 25px 25px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin: 35px 0;
+}
+
+footer ul li {
+    margin: 0 2px;
+}
+
+footer ul li a {
+    color:rgb(21, 218, 152);
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
